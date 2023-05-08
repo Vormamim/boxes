@@ -5,7 +5,6 @@ def cs():
     os.system("cls" if os.name == "nt" else "clear")
     
 
-
 board_size = 5
 cs()
 
@@ -58,9 +57,7 @@ while not game_over:
     new_row1 = row1
     new_col1 = col1
     # check to see if the move is valid
-    
-    if 
-    
+        
     if move == '8' and row1 > 0:
         new_row1 -= 1
     elif move == '2' and row1 < board_size-1:
